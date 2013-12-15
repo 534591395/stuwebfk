@@ -17,10 +17,9 @@ module.exports = function static(parent_path){
                 res.statusCode = 404;
 				next();
             }
-            else{
+            else
                 res.write(data);
-                res.end();
-			}
+            res.end();
         }
        fs.readFile(parent_path+path,callback());
 

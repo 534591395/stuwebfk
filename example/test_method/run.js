@@ -1,0 +1,22 @@
+var fk = require("../../"),
+    App = fk.App,
+    app = new App(),
+    static_middle = fk.static; 
+
+
+    app.use(static_middle(__dirname+"/public"));
+
+	/*app.get(function(req,res){
+	   res.write("I am GET method result!");
+	   res.end();
+	});
+
+	app.post(function(req,res){
+		res.write("I am POST method result!");
+		res.end();
+	});
+ 
+*/
+app.listen(3000,function(){
+  console.log("listen 3000 start ...");
+});

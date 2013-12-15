@@ -35,7 +35,7 @@ function App(){
 
                 var middle = middleList[middleIndex];
                 if(middle){
-					
+					console.log(middle.arguments[0]);
                     middle(req,res,next);
                 }else{
 				   //判断是GET还是POST方法
