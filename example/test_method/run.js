@@ -6,17 +6,18 @@ var fk = require("../../"),
 
     app.use(static_middle(__dirname+"/public"));
 
-	/*app.get(function(req,res){
+	app.get(function(req,res){
 	   res.write("I am GET method result!");
 	   res.end();
 	});
 
-	app.post(function(req,res){
+
+    app.post(function(req,res){
 		res.write("I am POST method result!");
 		res.end();
 	});
  
-*/
+
 app.listen(3000,function(){
   console.log("listen 3000 start ...");
 });
