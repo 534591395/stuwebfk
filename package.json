@@ -1,0 +1,25 @@
+{
+  "name": "stuwebfk",
+  "version": "0.0.3",
+  "description": "stu",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/534591395/stuwebfk"
+  },
+  "keywords": [
+    "stu"
+  ],
+  "author": "wy",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/534591395/stuwebfk/issues"
+  },
+  "homepage": "https://github.com/534591395/stuwebfk"
+}
